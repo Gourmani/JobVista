@@ -1,65 +1,117 @@
-#  JobVista India – Live Job Market Intelligence Dashboard  
+# JobVista — Job Search Website
 
-**JobVista India** is a real-time job analytics dashboard that fetches live tech job data and provides insights into hiring trends, in-demand skills, top cities, and companies in India.
+JobVista is a real-time developer job intelligence platform that analyzes live job market data and helps software engineers understand hiring trends, required skills, and role readiness.
 
-This project helps job seekers, students, and professionals make smarter career decisions using live job market data.
+It is designed as a decision-support dashboard for job seekers to align their skills with current industry demand and apply strategically.
 
 ---
 
-## Key Features
+## Overview
 
-###  Real-time Job Fetching  
-Fetches latest jobs across multiple domains:
+The platform fetches live job data across multiple software domains and converts it into actionable insights such as:
 
-###  Job Market Analytics Dashboard
-- Total jobs available  
-- Companies hiring  
+- Hiring demand by role and city  
+- Most requested technical skills  
+- Companies actively hiring  
+- Resume-to-job skill alignment  
+- Role-based readiness analysis  
+
+This enables developers to understand where they stand in the market and what to improve to get hired faster.
+
+---
+
+## Core Features
+
+### Live Job Market Dashboard
+- Real-time job data from external APIs  
+- Total open roles across domains  
+- Hiring companies overview  
 - Top hiring cities  
-- Most in-demand skills  
+- Skill demand analytics  
 
-###  Smart Filters
-- Filter by city  
-- Filter by skill  
+### Intelligent Filtering System
+- Filter jobs by role/domain  
 - Filter by company  
-- Domain-based job search  
+- Filter by location  
+- Filter by required skills  
 
+### Resume Role Fit Analyzer
+Allows users to:
+- Upload resume (PDF)
+- Select target job role
+- Evaluate skill match against industry requirements
+- Identify skill gaps
+- Receive structured improvement suggestions
 
-###  Career Insights Engine  
-Provides recommendations based on live skill demand.
+### Role-Based Hiring Readiness Score
+Provides:
+- Resume match percentage
+- Skills detected vs missing
+- Hiring readiness status
+- Learning roadmap for improvement
 
-###  Direct Apply Links  
-Users can directly apply to jobs from dashboard.
-
----
-
-## 🛠 Tech Stack
-
-**Frontend & Dashboard**
-- Streamlit  
-- Plotly  
-- Pandas  
-
-**Backend & Data**
-- Python  
-- REST API (Adzuna Jobs API)  
-- SQLite Database  
-
-**Tools & Practices**
-- Git & GitHub  
-- Environment variables (.env)  
-- Logging system  
+### Direct Job Application
+Users can apply directly to matching job listings through provided links.
 
 ---
 
-##  How It Works
+## Technology Stack
+
+### Frontend & Interface
+- Streamlit (interactive dashboard UI)
+- Plotly (data visualization)
+
+### Backend & Processing
+- Python
+- REST API integration (Adzuna Jobs API)
+- SQLite database
+- Resume parsing (PDF processing)
+
+### Engineering Practices
+- Modular architecture
+- Role-based skill intelligence system
+- Data-driven recommendations
+- Environment-based configuration
+- Version control with Git
+
+---
+
+## System Workflow
 
 1. User selects job domain  
-2. Dashboard fetches live jobs using API  
-3. Data stored in SQLite database  
-4. Skill analysis performed  
-5. Dashboard displays insights and apply links  
+2. System fetches live job data from API  
+3. Job data stored in local database  
+4. Skill extraction engine analyzes demand  
+5. Dashboard visualizes hiring insights  
+6. Resume analyzer evaluates user readiness  
+7. System recommends skills and roles to target  
 
 ---
 
+## Use Case
 
+This project is intended for:
 
+- Software developers preparing for job switches  
+- Fresh graduates entering tech industry  
+- Professionals evaluating market demand  
+- Recruiters analyzing hiring trends  
+
+---
+
+## Project Status
+
+Actively developed with:
+- Resume intelligence system  
+- Role-based job readiness scoring  
+- Advanced UI improvements  
+- Market-aligned skill analysis  
+
+---
+
+## Developer
+
+Gourmani Choudhary  
+Software Developer  
+
+This project is built to bridge the gap between developer skills and real hiring demand in the software industry.
