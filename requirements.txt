@@ -7,3 +7,5 @@ lxml
 sqlalchemy
 python-dotenv
 altair==4.2.2
+pdfplumber
+PyPDF2

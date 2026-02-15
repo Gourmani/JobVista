@@ -1,14 +1,20 @@
+[
+"python","java","c++","javascript","typescript",
+"html","css","react","angular","vue","node","express","django","flask","spring","springboot",
 
-  [
-"python","java","c++","javascript","typescript","react","angular","vue",
-"node","express","django","flask","spring","springboot",
-"sql","mysql","postgresql","mongodb","firebase",
+"sql","mysql","postgresql","mongodb",
+"redis","firebase",
+
+"git","github","linux","rest api","api","json",
+
 "aws","azure","gcp","docker","kubernetes",
-"machine learning","deep learning","ai","data science","nlp",
-"pandas","numpy","tensorflow","pytorch","opencv",
-"html","css","bootstrap","tailwind",
-"power bi","tableau","excel",
-"git","linux","rest api",
-"embedded","iot","automotive","matlab","simulink"
-]
 
+"machine learning","deep learning","ai","data science","nlp",
+"pandas","numpy","tensorflow","pytorch","scikit","opencv",
+
+"selenium","testing","automation testing","unit testing","pytest","junit",
+
+"power bi","tableau","data analysis","data analyst",
+
+"embedded","iot","automotive","can","matlab","simulink"
+]
