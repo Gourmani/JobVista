@@ -66,7 +66,12 @@ Users can apply directly to matching job listings through provided links.
 - REST API integration (Adzuna Jobs API)
 - SQLite database
 - Resume parsing (PDF processing)
-
+### NLP & Intelligence Layer
+- Natural Language Processing (NLP) for resume analysis
+- Skill extraction from job descriptions
+- Resume-to-role matching engine
+- Hiring readiness scoring system
+- Skill gap detection aligned with job market
 ### Engineering Practices
 - Modular architecture
 - Role-based skill intelligence system
@@ -115,3 +120,4 @@ Gourmani Choudhary
 Software Developer  
 
 This project is built to bridge the gap between developer skills and real hiring demand in the software industry.
+
